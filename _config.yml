@@ -5,5 +5,4 @@ author: kanbanner
 pygments: true
 safe: true
 paginate: 16
-auto: true
-
+excerpt_separator: ""
