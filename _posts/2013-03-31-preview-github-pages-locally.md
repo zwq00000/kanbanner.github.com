@@ -44,7 +44,7 @@ title: "Github Pages本地预览"
 		RootCause:
 			page build failed(邮件和github repository设置页中均有此提示)
 		解决：
-			本地和github pages ci服务器jekyll版本不一致，代码和配置不能编译通过
+			本地和github pages ci服务器jekyll版本不一致, 导致代码和配置不能编译通过
 			github帮助页面Syntax errors节可以看到ci服务器jekyll版本
 			https://help.github.com/articles/pages-don-t-build-unable-to-run-jekyll
 			执行gem list命令可以看到本地使用jekyll版本。
@@ -56,7 +56,7 @@ title: "Github Pages本地预览"
 			_config.yml配置文件中删除auto: true项, 增加excerpt_separator: ""项
 
 			本地执行jekyll server watch命令编译预览, PASS！！
-			COMMIT PUSH到github, 及时更新, PASS！！
+			COMMIT PUSH到github, 可即时更新, PASS！！
 
 以上。
 <br>
