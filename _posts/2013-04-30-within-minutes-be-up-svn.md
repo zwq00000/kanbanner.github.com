@@ -56,25 +56,25 @@ SVN版本库创建|模板|备份
 		
 SVN版本库访问权限控制, 例: 
 	[groups]
-		devs = jim, joe, bill, john, mary 
-		mgrs = john, mary
-		docs = sue, john
+	devs = jim, joe, bill, john, mary 
+	mgrs = john, mary
+	docs = sue, john
 		
 	[/]
-		* = r
-		@mgrs = rw
+	* = r
+	@mgrs = rw
 		
 	[test:/]
-		@devs = rw
+	@devs = rw
 		
 	[test:/tags]
-		@devs = r
+	@devs = r
 		
 	[test:/trunk/docs]
-		@docs = rw
+	@docs = rw
 访问方式
 	
-	控制台: https://IP/viewvc/test/
+	控制台: https://IP:3343/viewvc/test/
 	客户端/浏览器: https://IP/svn/test/
 	
 
